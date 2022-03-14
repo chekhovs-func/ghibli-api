@@ -8,9 +8,23 @@ export const Container = styled.main`
 
   width: 100vw;
   height: 100vh;
+`;
+
+export const Header = styled.header`
+  justify-content: center;
+  display: flex;
+
+  border-bottom: 5px solid white;
+  width: 100vw;
+
+  background-color: black;
 
   .logo {
+    align-self: center;
+
     margin: 25px;
+
+    fill: white;
   }
 `;
 
@@ -29,8 +43,8 @@ export const CardWrapper = styled.section`
 export const Card = styled.article`
   position: relative;
 
-  margin: 30px;
-  width: 350px;
+  margin: 25px;
+  width: 320px;
   padding: 30px;
 
   background-color: black;
