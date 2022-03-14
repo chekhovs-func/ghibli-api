@@ -26,6 +26,22 @@ export const Header = styled.header`
 
     fill: white;
   }
+
+  @media only screen and (max-height: 375px) {
+    display: none;
+
+    .logo {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-height: 811px) {
+    height: 100px;
+
+    .logo {
+      height: 70px;
+    }
+  }
 `;
 
 export const CardWrapper = styled.section`
