@@ -30,7 +30,6 @@ export const Card = styled.article`
   position: relative;
 
   margin: 30px;
-  /* border-radius: 10px; */
   width: 350px;
   padding: 30px;
 
