@@ -36,7 +36,9 @@ export default function App() {
     <>
       <GlobalStyle />
       <_.Container>
-        <GhibliLogo className='logo' />
+        <_.Header>
+          <GhibliLogo className='logo' />
+        </_.Header>
         <_.CardWrapper>
           {response.map((object, index) => (
             <Card
