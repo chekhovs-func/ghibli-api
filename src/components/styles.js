@@ -43,6 +43,7 @@ export const CardWrapper = styled.section`
 export const Card = styled.article`
   position: relative;
 
+  border-radius: 5px;
   margin: 25px;
   width: 320px;
   padding: 30px;
