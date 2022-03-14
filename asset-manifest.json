@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/ghibli-api/static/js/main.064fc1f1.js",
+    "static/media/logo.svg": "/ghibli-api/static/media/logo.95c5236f9692bf60d93c5a0500604e39.svg",
+    "index.html": "/ghibli-api/index.html",
+    "main.064fc1f1.js.map": "/ghibli-api/static/js/main.064fc1f1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.064fc1f1.js"
+  ]
+}
